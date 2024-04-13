@@ -1,10 +1,11 @@
-# master 分支推送部署预览
+# Dev 分支推送部署预览
 ## 仅部署 Win 端
-name: Build master
+name: Build Dev
 
 on:
   push:
     branches:
+      - dev
       - master
 
 jobs:
